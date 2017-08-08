@@ -1,0 +1,22 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Anagrams</h1>
+<h2>Allergen Score</h2>
+<p>eggs         1<br>
+
+peanuts      2<br>
+shellfish    4<br>
+strawberries 8<br>
+tomatoes     16<br>
+chocolate    32<br>
+pollen       64<br>
+cats         128<br></p>
+
+<form action="/allergen/results" method="post">
+  <label for="allergen-score">Enter your allergen score: </label>
+  <input id="allergen-score" name="allergen-score" class="form-control" type="number">
+
+  <button type="submit">Show Allergens</button>
+</form>

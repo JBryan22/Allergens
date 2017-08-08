@@ -1,0 +1,23 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Your allergies:</h1>
+
+<ul>
+@foreach (var allergy in Model)
+{
+<li>@allergy</li>
+}
+</ul>
+
+<h2>Allergen Score</h2>
+<p>eggs         1<br>
+
+peanuts      2<br>
+shellfish    4<br>
+strawberries 8<br>
+tomatoes     16<br>
+chocolate    32<br>
+pollen       64<br>
+cats         128<br></p>
